@@ -52,6 +52,7 @@ class linkedList{
 		if(isPalindrome(right->next, leftptr) == false){
 			return false;
 		}
+		
 		if(right->data != leftptr->data){
 			return false;
 		}
